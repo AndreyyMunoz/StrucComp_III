@@ -23,6 +23,10 @@ StrucComp_III/
 │   │   ├── bipartite_check.py
 │   │   └── color_two.py
 │   │
+│   ├── check_tree/
+│   │   ├── dfs_cycle_detect.py
+│   │   └── edge_count_connectivity.py
+│   │
 │   ├── components/
 │   │   ├── connected_components.py
 │   │   └── kosaraju_scc.py
@@ -34,6 +38,10 @@ StrucComp_III/
 │   ├── mst/
 │   │   ├── kruskal.py
 │   │   └── prim.py
+│   │
+│   ├── perfect_max_match/
+│   │   ├── greedy_maximal_check.py
+│   │   └── perfect_matching_check.py
 │   │
 │   ├── representations/
 │   │   ├── adjacency_list.py
@@ -47,23 +55,27 @@ StrucComp_III/
 │   │   ├── bfs.py
 │   │   └── dfs.py
 │   │
-│   └── graph.py          ← Core graph class (if applicable)
+│   ├── graph.py          ← Core graph class (if applicable)
+│   └── main.py
 │
 ├── test/
+│   ├── test_adjency_list.py
+│   ├── test_bfs.py
 │   ├── test_bipartite_check.py
+│   ├── test_bipartite.py
 │   ├── test_color_two.py
 │   ├── test_connected_components.py
-│   ├── test_kosaraju_scc.py
-│   ├── test_hopcroft_karp.py
-│   ├── test_maximal_matching.py
-│   ├── test_kruskal.py
-│   ├── test_prim.py
-│   ├── test_adjacency_list.py
-│   ├── test_adjacency_matrix.py
+│   ├── test_dfs_cycle_detected.py
+│   ├── test_dfs.py
 │   ├── test_dijkstra.py
+│   ├── test_edge_count_connectivity.py
 │   ├── test_floyd_warshall.py
-│   ├── test_bfs.py
-│   └── test_dfs.py
+│   ├── test_greedy_maximal_check.py
+│   ├── test_hopcroft_karp.py
+│   ├── test_kruskal.py
+│   ├── test_maximal_matching.py
+│   ├── test_perfect_matching_check.py
+│   └── test_prim.py
 │
 └── README.md
 ```
@@ -107,11 +119,6 @@ Each topic includes two implementations, summing up to 18 algorithms:
 - Greedy Maximal Matching
 - Perfect Matching Check
 
-
-
-
-
-
 ## 🛠 Requirements
 
 - Python 3.10+
@@ -135,4 +142,4 @@ This repository was created as a final project for the subject **Estructuras Com
 
 :octocat: [Santiago Andrey Muñoz Muñoz](https://github.com/AndreyyMunoz).
 
-#### Engineering Students / Software Developers
+#### AI Engineering Students / Software Developers
