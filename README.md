@@ -136,9 +136,9 @@ This repository was created as a final project for the subject **Estructuras Com
 
 ## 👤 Authors
 
-:octocat: [Luis Gerardo Escamilla López]()
+:octocat: [Luis Gerardo Escamilla López]().
 
-:octocat: [Pedro Fernando López Vazquéz](https://github.com/ferbigDK)
+:octocat: [Pedro Fernando López Vazquéz](https://github.com/ferbigDK).
 
 :octocat: [Santiago Andrey Muñoz Muñoz](https://github.com/AndreyyMunoz).
 
