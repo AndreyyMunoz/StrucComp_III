@@ -1,5 +1,5 @@
 from src.bipartite.color_two import two_color
-from matching.hopcroft_karp_manual import hopcroft_karp
+from src.matching.hopcroft_karp_manual import hopcroft_karp
 
 
 def hopcroft_karp_auto(graph):

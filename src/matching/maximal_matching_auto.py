@@ -1,4 +1,4 @@
-def maximal_matching(graph):
+def maximal_matching_auto(graph):
     """
     MAXIMAL MATCHING general (Greedy).
     Funciona en cualquier grafo NO dirigido.
