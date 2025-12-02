@@ -1,7 +1,6 @@
 import unittest
 
-from perfect_match_check.greedy_maximal_check import is_maximal_matching
-
+from perfect_max_match.greedy_maximal_check import is_maximal_matching
 from src.graph import Graph
 from src.matching.hopcroft_karp_auto import hopcroft_karp_auto
 
