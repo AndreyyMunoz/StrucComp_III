@@ -1,6 +1,7 @@
 from collections import deque
 
-def hopcroft_karp(graph, U, V):
+
+def hopcroft_karp_manual(graph, U, V):
     """
     Algoritmo Hopcroft-Karp (versión manual).
     Requiere que se pasen las particiones U y V explícitamente.
