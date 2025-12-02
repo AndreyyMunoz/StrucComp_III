@@ -13,8 +13,8 @@ from src.matching.maximal_matching_auto import maximal_matching_auto
 from src.matching.maximal_matching_manual import maximal_matching_manual
 from src.mst.kruskal import kruskal
 from src.mst.prim import prim
-from src.perfect_match_check.greedy_maximal_check import is_maximal_matching
-from src.perfect_match_check.perfect_matching_check import is_perfect_matching
+from src.perfect_max_match.greedy_maximal_check import is_maximal_matching
+from src.perfect_max_match.perfect_matching_check import is_perfect_matching
 from src.shortest_paths.dijkstra import dijkstra
 from src.shortest_paths.floyd_warshall import floyd_warshall
 from src.traversals.bfs import bfs
