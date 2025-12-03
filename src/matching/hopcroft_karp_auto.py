@@ -1,5 +1,5 @@
 from src.bipartite.color_two import two_color
-from src.matching.hopcroft_karp_manual import hopcroft_karp
+from src.matching.hopcroft_karp_manual import hopcroft_karp_manual
 
 
 def hopcroft_karp_auto(graph):
@@ -23,5 +23,5 @@ def hopcroft_karp_auto(graph):
     U = {i for i, c in enumerate(colors) if c == 0}
     V = {i for i, c in enumerate(colors) if c == 1}
 
-    matching = hopcroft_karp(graph, U, V)
+    matching = hopcroft_karp_manual(graph, U, V)
     return matching, U, V
