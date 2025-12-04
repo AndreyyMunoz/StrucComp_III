@@ -1,0 +1,203 @@
+[33mcommit c841abb612d42c40b4e1a01b9804f4eee85759bc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Fer <flipsierra357@gmail.com>
+Date:   Wed Dec 3 22:08:50 2025 -0600
+
+    The connectivity detection code is now complete
+
+[33mcommit 82d93109693bd132be7a3b6515bf248613d5f9ac[m
+Author: Fer <flipsierra357@gmail.com>
+Date:   Wed Dec 3 21:52:30 2025 -0600
+
+    DFS cycle detection code fix
+
+[33mcommit fd150d5f48b39e88bddee0259a9498606eeb941a[m
+Author: Fer <flipsierra357@gmail.com>
+Date:   Wed Dec 3 21:44:03 2025 -0600
+
+    The DFS cycle detection code is now complete
+
+[33mcommit 3d40952f68e80abb0e249f82079c12a4cf596561[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 6446986 135bb69
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Tue Dec 2 20:18:57 2025 -0600
+
+    Merge pull request #8 from AndreyyMunoz/andrey
+    
+    Program is running
+
+[33mcommit 135bb69500e8d9975f58b7e7cff6b32aff78e650[m[33m ([m[1;31morigin/andrey[m[33m)[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Tue Dec 2 20:17:50 2025 -0600
+
+    I did a git --rebase, so i can push later
+
+[33mcommit b19d81d9da24053c7bc9b7d8b1dddf33aacd56ca[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Tue Dec 2 20:10:32 2025 -0600
+
+    Program is already running, theres still things to check
+
+[33mcommit 41bd84ec6c35b61f5c445103f92f9a2a01be46c8[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Tue Dec 2 13:02:34 2025 -0600
+
+    Save point for possibly emergency...
+
+[33mcommit 2b9a0032150a3cd0bc3808c783337f4389a10918[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Tue Dec 2 13:00:32 2025 -0600
+
+    Small bug fixed in test_greedy_maximal_check
+
+[33mcommit e4879a17db6a9614ef9c5a6e6c764fc0a529ed56[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Tue Dec 2 12:58:55 2025 -0600
+
+    perfect_max_matching files, done
+
+[33mcommit a1862803373de15b60a69593389c0430dd06abc8[m
+Merge: 9cf02ae 6446986
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Mon Dec 1 22:24:12 2025 -0600
+
+    Merge pull request #7 from AndreyyMunoz/main
+    
+    There´s no changes, just update the commits
+
+[33mcommit 6446986cebd2922de1c0a0afc6ba3fea2e3fd2f9[m
+Merge: 548e70d 9cf02ae
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Mon Dec 1 22:22:52 2025 -0600
+
+    Merge pull request #6 from AndreyyMunoz/andrey
+    
+    Done for today
+
+[33mcommit 9cf02ae75b52e853c57472cd497a596c3e05f3f1[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 22:05:52 2025 -0600
+
+    First version of main
+
+[33mcommit 9d998ef818adcb5e012c2f2dc81ea50f5c7b8374[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 21:45:14 2025 -0600
+
+    Error in 'matching' algorythms fixed
+
+[33mcommit 1809407d6b8b30489db268afdef108aaa3ed8389[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 21:43:12 2025 -0600
+
+    matching algorythms done, manual and auto versions.
+
+[33mcommit 103983bfb7b2e71bf35e961e471a8c4f6a54951d[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 21:27:39 2025 -0600
+
+    bipartite directory, and tests are done.
+
+[33mcommit 77eacb485f6457f80ec7b0bb44dd09cf6a483194[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 21:25:37 2025 -0600
+
+    mst's directory, and tests done.
+
+[33mcommit 65bb0f9becb85f6a08dfb41301ec5340e199b5ac[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 21:23:51 2025 -0600
+
+    shortest_paths, done (and its tests)
+
+[33mcommit abf63f3a4b0d4db523e1e97964ca9f476f6bd890[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 21:21:52 2025 -0600
+
+    Tests of traversals improved. Components and its tests, done.
+
+[33mcommit 548e70db5b485bba404654e31ad998bcf272b7e1[m
+Merge: bbe2a7b 65611b7
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Mon Dec 1 21:16:45 2025 -0600
+
+    Merge pull request #5 from AndreyyMunoz/andrey
+    
+    'representations', 'traversals' and it tests
+
+[33mcommit 65611b7ec2d2fd7e2ec0a4f838314d82d4e59699[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 21:14:18 2025 -0600
+
+    Directories 'representations' and 'traversals', and its respectives tests, done.
+
+[33mcommit bbe2a7bf1d387671710c0f389056dab301d02c03[m
+Merge: 0be583d 48c2e10
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Mon Dec 1 13:33:56 2025 -0600
+
+    Merge pull request #4 from AndreyyMunoz/andrey
+    
+    Prueba para el wero
+
+[33mcommit 48c2e108c60c159df1b753f8aef5f8f30936ce49[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Mon Dec 1 13:32:51 2025 -0600
+
+    Prueba para el wero
+
+[33mcommit 0be583dac3435566044de9b81ca108a9813f7653[m
+Merge: 7769a5f 31ceee9
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Mon Dec 1 13:24:33 2025 -0600
+
+    Merge pull request #3 from AndreyyMunoz/Fer
+    
+    primer commit
+
+[33mcommit 31ceee9ba96612d3c27e03cb3fe5a4deb6709df6[m
+Author: Fer <flipsierra357@gmail.com>
+Date:   Mon Dec 1 13:22:20 2025 -0600
+
+    primer commit
+
+[33mcommit 7769a5fe79ad1a571e41ed8650439a613ce5c58e[m
+Merge: b179353 10fa3dd
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Sun Nov 30 12:11:18 2025 -0600
+
+    Merge pull request #2 from AndreyyMunoz/andrey
+    
+    README improved: structure of the project changed
+
+[33mcommit 10fa3ddc461f226377b1c0a9f193335b85ed7fa0[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Sun Nov 30 12:09:42 2025 -0600
+
+    README improved: structure of the project changed
+
+[33mcommit b1793533c8faf67a17e1351bf266c466489a327b[m
+Merge: ee751d5 9b98ba5
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Sun Nov 30 11:55:42 2025 -0600
+
+    Merge pull request #1 from AndreyyMunoz/andrey
+    
+    Topics missing added, README improved
+
+[33mcommit 9b98ba5c18f81f43189f977fa772d395ea0214cc[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Sun Nov 30 11:54:34 2025 -0600
+
+    Topics missing added, README improved
+
+[33mcommit ee751d53736b39a89af28fdf9cdd8fb8550b606f[m
+Author: Andrey Munoz <santiago.2e.g17@gmail.com>
+Date:   Sun Nov 30 10:37:07 2025 -0600
+
+    Initial structure of the project
+
+[33mcommit 45c7eec10bb482f04a4970a2251d746b36eba5de[m
+Author: Andrey Muñoz <146496468+AndreyyMunoz@users.noreply.github.com>
+Date:   Sun Nov 30 09:16:49 2025 -0600
+
+    Initial commit
