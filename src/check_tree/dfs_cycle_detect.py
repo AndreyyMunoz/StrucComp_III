@@ -1,12 +1,16 @@
 def has_cycle(graph):
     """
-    Detecta si un grafo tiene ciclos utilizando DFS.
+    Detecta si un grafo (dirigido o no dirigido) contiene ciclos usando DFS.
 
     Parámetros:
-    - graph: objeto Graph (dirigido o no dirigido)
+    - graph: objeto Graph con atributos:
+      - n: número de nodos
+      - adj: lista de adyacencia con tuplas (v, peso)
+      - directed: True si es dirigido, False si es no dirigido
 
     Retorna:
-    - True si el grafo contiene un ciclo, False si NO lo contiene.
+    - True si el grafo contiene al menos un ciclo.
+    - False si NO contiene ciclos.
     """
 
     visited = [False] * graph.n
@@ -17,12 +21,11 @@ def has_cycle(graph):
         rec_stack[u] = True
 
         for v, _ in graph.adj[u]:
-            
             if not visited[v]:
                 if dfs(v, u):
                     return True
 
-            elif parent != v and not graph.directed:
+            elif not graph.directed and v != parent:
                 return True
 
             elif graph.directed and rec_stack[v]:
