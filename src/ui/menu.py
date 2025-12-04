@@ -8,6 +8,7 @@ from src.ui.actions_matching import *
 from src.ui.actions_mst import action_kruskal, action_prim
 from src.ui.actions_shortest_paths import action_dijkstra, action_floyd
 from src.ui.actions_traversals import action_bfs, action_dfs
+from src.ui.actions_checktree import action_check_cycle, action_check_tree
 
 
 def run_menu():
@@ -52,6 +53,10 @@ def run_menu():
         [18] Verificar Maximal Matching
         [19] Verificar Perfect Matching
 
+        --- 🌳 ÁRBOLES ---
+        [20] Verificar si tiene ciclo
+        [21] Verificar si es Árbol
+
         [0] Salir
         """)
 
@@ -89,13 +94,17 @@ def run_menu():
         elif opc == "13":  action_maximal_general()
         elif opc == "14":  action_maximal_manual()
         elif opc == "15":  action_maximal_auto()
-
+        
         elif opc == "16":  action_hopcroft_manual()
         elif opc == "17":  action_hopcroft_auto()
 
         # --- CHECKERS ---
         elif opc == "18":  action_check_maximal()
         elif opc == "19":  action_check_perfect()
+
+        # --- ÁRBOLES ---
+        elif opc == "20":  action_check_cycle()
+        elif opc == "21":  action_check_tree()
 
         else:
             print("❌ Opción inválida. Intenta otra vez.")
